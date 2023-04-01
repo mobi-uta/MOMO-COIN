@@ -1,0 +1,207 @@
+/* Reset all margins and paddings to zero */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Set font size and family */
+html {
+  font-size: 16px;
+  font-family: 'IBM Plex Sans', sans-serif;
+  scroll-behavior: smooth;
+}
+
+/* Remove text decoration on all links */
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+
+/* Set default colors for text and backgrounds */
+body {
+  color: #000;
+  background-color: #fff;
+}
+
+/* Set default styles for headings */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: normal;
+}
+
+/* Remove default list styles */
+ul,
+ol {
+  list-style: none;
+}
+
+/* Remove default button styles */
+button {
+  border: none;
+  background: none;
+  padding: 0;
+  font: inherit;
+  cursor: pointer;
+  outline: inherit;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.gray-light {
+  color: #a60000;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  background-color: black;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 1rem;
+
+  height: 6rem;
+  top: 0;
+  left: 0;
+  right: 0;
+
+  color: white;
+}
+
+.black {
+  color: black;
+}
+
+.name-logo-section {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+#logo {
+  height: 3rem;
+}
+
+nav {
+  float: right;
+}
+
+nav ul {
+  display: flex;
+  gap: 1rem;
+}
+
+#home {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10rem 2rem;
+  gap: 2rem;
+}
+
+.home-text-area {
+  display: flex;
+  flex-direction: column;
+  max-width: 70ch;
+}
+
+h1 {
+  font-size: 3rem;
+}
+
+h2 {
+  font-size: 1.5rem;
+}
+
+.home-img {
+  width: 20rem;
+  height: 20rem;
+}
+
+#team {
+  background-color: black;
+  color: white;
+}
+
+.team-intro {
+  max-width: 80ch;
+}
+
+.section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 3rem;
+  padding: 10rem 2rem;
+}
+
+.section-head {
+  text-align: center;
+}
+
+.section-body {
+  display: flex;
+  justify-content: space-evenly;
+
+  flex-flow: row wrap;
+  gap: 3rem;
+}
+
+.section-body > li {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: 0.3rem;
+  
+  max-width: 16rem;
+}
+
+.section-body > li > p {
+  color: #aaa;
+}
+
+.section-body > li > img {
+  width: 10rem;
+  height: 10rem;
+  border-radius: .5rem;
+  margin-bottom: 1rem;
+  transition: .2s;
+}
+
+#team li > img:hover {
+  transform: scale(1.05);
+}
+
+footer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+  gap: 1rem;
+
+  background-color: black;
+  padding: 1rem;
+
+  height: 6rem;
+  bottom: 0;
+  left: 0;
+  right: 0;
+
+  color: white;
+}
+
+footer > ul {
+  display: flex;
+  gap: 1rem;
+}
